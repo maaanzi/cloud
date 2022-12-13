@@ -1,0 +1,39 @@
+html, body {
+    width: 50%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: cadetblue;
+
+}
+#title {
+    color: white;
+}
+.containerWrap {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    width: 300px;
+    height: 500px;
+    background-color: lightblue;
+    border: 2px solid;
+    padding-top: 20px;
+    padding-left: 100px;
+
+}
+
+#inputFiled {
+    width: 300px;
+    height: 46px;
+    border: 1px solid black;
+    outline: none;
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+.to-dos {
+    margin-top:25px;
+}
