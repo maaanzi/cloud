@@ -1,12 +1,29 @@
-html, body {
-    width: 50%;
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
     margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
     background-color: cadetblue;
+    align-items: center;
 
 }
 #title {
     color: white;
+}
+#titleWrap {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 45%;
+}
+#form {
+    display: flex;
+    flex-direction: column;
+}
+#uploadBtn {
+    width: 50%;
 }
 .containerWrap {
     width: 400px;
